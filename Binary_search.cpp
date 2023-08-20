@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int firstOccur(int arr[],int size,int key){
+int binarySearch(int arr[],int size,int key){
     int s=0;
     int e = size-1;
     int mid = (s+e)/2;
@@ -27,6 +27,6 @@ int main(){
 int arr[5] = {1,2,3,8,9};
 int key;
 cin>>key;
-cout<<firstOccur(arr,5,key);
+cout<<binarySearch(arr,5,key);
 
 }
